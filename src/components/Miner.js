@@ -25,7 +25,7 @@ const Miner = ({ onMine }) => {
 };
 try {
     // code to show banner
-  await window.Adsgram.init({ blockId: "your-block-id" }).show();
+  await window.Adsgram.init({ blockId: "5394" }).show();
 } catch (error) {
     // user get error during playing ad or no banner to show
     // do nothing or whatever you want
